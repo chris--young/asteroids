@@ -1,0 +1,4 @@
+#!/bin/bash
+
+browserify src/main.js -t [ babelify --sourceMapRelative . ] --outfile bundle.js
+
